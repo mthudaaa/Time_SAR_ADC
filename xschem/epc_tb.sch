@@ -18,9 +18,9 @@ value="
 spice_ignore=false}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc.sym} 670 -630 0 0 {name=x1 }
 C {devices/vsource.sym} 210 -380 0 0 {name=V1 value=1.8 savecurrent=false}
-C {devices/vsource.sym} 210 -510 0 0 {name=V2 value="PULSE(0.901 0.899 50n 5n 5n 80m 160m)" savecurrent=false}
+C {devices/vsource.sym} 210 -510 0 0 {name=V2 value="PULSE(0.99 0.89 50n 5n 5n 5m 10m)" savecurrent=false}
 C {devices/vsource.sym} 210 -630 0 0 {name=V3 value=0.9 savecurrent=false}
-C {devices/vsource.sym} 210 -730 0 0 {name=V4 value="PULSE(1.8 0 50n 5n 5n 500u 100000u)" savecurrent=false}
+C {devices/vsource.sym} 210 -730 0 0 {name=V4 value="PULSE(1.8 0 50n 5n 5n 50u 1000u)" savecurrent=false}
 C {devices/gnd.sym} 210 -350 0 0 {name=l1 lab=GND}
 C {devices/gnd.sym} 210 -480 0 0 {name=l2 lab=GND}
 C {devices/gnd.sym} 210 -600 0 0 {name=l3 lab=GND}
@@ -39,6 +39,6 @@ C {devices/code.sym} 310 -230 0 0 {name=s2 only_toplevel=false value="
 .option wnflag=0
 .option savecurrents
 .control
-tran 1m 320m
+tran 1m 10m
 plot V(vp) V(vn) V(out)
 .endc"}

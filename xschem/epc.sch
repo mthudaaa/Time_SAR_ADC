@@ -34,109 +34,117 @@ lab=#net7}
 N 810 -380 870 -380 {
 lab=#net7}
 N 420 -400 510 -400 {
-lab=#net8}
+lab=OUTN}
 N 2270 -540 2270 -520 {
-lab=#net9}
+lab=#net8}
 N 2270 -520 2330 -520 {
-lab=#net9}
+lab=#net8}
 N 2630 -540 2630 -520 {
-lab=#net10}
+lab=#net9}
 N 2630 -520 2690 -520 {
-lab=#net10}
+lab=#net9}
 N 2990 -540 2990 -520 {
-lab=#net11}
+lab=#net10}
 N 2990 -520 3060 -520 {
-lab=#net11}
+lab=#net10}
 N 3060 -400 3060 -380 {
-lab=#net12}
+lab=#net11}
 N 2990 -380 3060 -380 {
-lab=#net12}
+lab=#net11}
 N 2690 -400 2690 -380 {
-lab=#net13}
+lab=#net12}
 N 2630 -380 2690 -380 {
-lab=#net13}
+lab=#net12}
 N 2330 -400 2330 -380 {
-lab=#net14}
+lab=#net13}
 N 2270 -380 2330 -380 {
-lab=#net14}
+lab=#net13}
 N 1900 -540 1900 -520 {
-lab=#net15}
+lab=#net14}
 N 1900 -520 1970 -520 {
-lab=#net15}
+lab=#net14}
 N 1970 -400 1970 -380 {
-lab=#net16}
+lab=#net15}
 N 1900 -380 1970 -380 {
-lab=#net16}
+lab=#net15}
 N 6550 -520 6550 -380 {
-lab=#net17}
+lab=#net16}
 N 3760 -540 3760 -520 {
-lab=#net18}
-N 3760 -520 3820 -520 {
-lab=#net18}
-N 4120 -540 4120 -520 {
-lab=#net19}
-N 4120 -520 4180 -520 {
-lab=#net19}
-N 4480 -540 4480 -520 {
-lab=#net20}
-N 4480 -520 4550 -520 {
-lab=#net20}
-N 4550 -400 4550 -380 {
-lab=#net21}
-N 4480 -380 4550 -380 {
-lab=#net21}
-N 4180 -400 4180 -380 {
-lab=#net22}
-N 4120 -380 4180 -380 {
-lab=#net22}
-N 3820 -400 3820 -380 {
-lab=#net23}
-N 3760 -380 3820 -380 {
-lab=#net23}
-N 5220 -540 5220 -520 {
-lab=#net24}
-N 5220 -520 5280 -520 {
-lab=#net24}
-N 5580 -540 5580 -520 {
-lab=#net25}
-N 5580 -520 5640 -520 {
-lab=#net25}
-N 5940 -540 5940 -520 {
-lab=#net26}
-N 5940 -520 6010 -520 {
-lab=#net26}
-N 6010 -400 6010 -380 {
-lab=#net27}
-N 5940 -380 6010 -380 {
-lab=#net27}
-N 5640 -400 5640 -380 {
-lab=#net28}
-N 5580 -380 5640 -380 {
-lab=#net28}
-N 5280 -400 5280 -380 {
-lab=#net29}
-N 5220 -380 5280 -380 {
-lab=#net29}
-N 4850 -540 4850 -520 {
-lab=#net30}
-N 4850 -520 4920 -520 {
-lab=#net30}
-N 4920 -400 4920 -380 {
-lab=#net31}
-N 4850 -380 4920 -380 {
-lab=#net31}
-N 3360 -540 3360 -520 {
-lab=#net32}
-N 3360 -520 3460 -520 {
-lab=#net32}
-N 3460 -400 3460 -380 {
-lab=#net33}
-N 3360 -380 3460 -380 {
-lab=#net33}
-N 6310 -540 6430 -540 {
-lab=OUT}
-N 6310 -380 6550 -380 {
 lab=#net17}
+N 3760 -520 3820 -520 {
+lab=#net17}
+N 4120 -540 4120 -520 {
+lab=#net18}
+N 4120 -520 4180 -520 {
+lab=#net18}
+N 4480 -540 4480 -520 {
+lab=#net19}
+N 4480 -520 4550 -520 {
+lab=#net19}
+N 4550 -400 4550 -380 {
+lab=#net20}
+N 4480 -380 4550 -380 {
+lab=#net20}
+N 4180 -400 4180 -380 {
+lab=#net21}
+N 4120 -380 4180 -380 {
+lab=#net21}
+N 3820 -400 3820 -380 {
+lab=#net22}
+N 3760 -380 3820 -380 {
+lab=#net22}
+N 5220 -540 5220 -520 {
+lab=#net23}
+N 5220 -520 5280 -520 {
+lab=#net23}
+N 5580 -540 5580 -520 {
+lab=#net24}
+N 5580 -520 5640 -520 {
+lab=#net24}
+N 5940 -540 5940 -520 {
+lab=#net25}
+N 5940 -520 6010 -520 {
+lab=#net25}
+N 6010 -400 6010 -380 {
+lab=#net26}
+N 5940 -380 6010 -380 {
+lab=#net26}
+N 5640 -400 5640 -380 {
+lab=#net27}
+N 5580 -380 5640 -380 {
+lab=#net27}
+N 5280 -400 5280 -380 {
+lab=#net28}
+N 5220 -380 5280 -380 {
+lab=#net28}
+N 4850 -540 4850 -520 {
+lab=#net29}
+N 4850 -520 4920 -520 {
+lab=#net29}
+N 4920 -400 4920 -380 {
+lab=#net30}
+N 4850 -380 4920 -380 {
+lab=#net30}
+N 3360 -540 3360 -520 {
+lab=#net31}
+N 3360 -520 3460 -520 {
+lab=#net31}
+N 3460 -400 3460 -380 {
+lab=#net32}
+N 3360 -380 3460 -380 {
+lab=#net32}
+N 6310 -540 6430 -540 {
+lab=OUTP}
+N 6310 -380 6550 -380 {
+lab=#net16}
+N 1040 -160 1110 -160 {
+lab=OUT}
+N 640 -180 710 -180 {
+lab=OUTP}
+N 640 -140 710 -140 {
+lab=OUTN}
+N 830 -160 860 -160 {
+lab=#net33}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 660 -510 0 0 {name=x1}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 1020 -510 0 0 {name=x2}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 1380 -510 0 0 {name=x3}
@@ -173,19 +181,19 @@ C {devices/lab_wire.sym} 1900 -360 0 1 {name=p23 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 1170 -360 0 1 {name=p24 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 420 -360 0 1 {name=p25 sig_type=std_logic lab=START}
 C {devices/lab_wire.sym} 6430 -500 0 0 {name=p26 sig_type=std_logic lab=START}
-C {devices/ipin.sym} 870 -210 0 0 {name=p27 lab=VDD}
-C {devices/ipin.sym} 870 -180 0 0 {name=p28 lab=VP}
-C {devices/ipin.sym} 870 -150 0 0 {name=p29 lab=VN}
-C {devices/ipin.sym} 870 -90 0 0 {name=p30 lab=VSS}
-C {devices/opin.sym} 990 -160 0 0 {name=p31 lab=OUT}
-C {devices/ipin.sym} 870 -120 0 0 {name=p32 lab=START}
-C {devices/lab_wire.sym} 870 -90 0 1 {name=p33 sig_type=std_logic lab=VSS}
-C {devices/lab_wire.sym} 870 -210 0 1 {name=p34 sig_type=std_logic lab=VDD}
-C {devices/lab_wire.sym} 870 -120 0 1 {name=p35 sig_type=std_logic lab=START}
-C {devices/lab_wire.sym} 870 -150 0 1 {name=p36 sig_type=std_logic lab=VN}
-C {devices/lab_wire.sym} 870 -180 0 1 {name=p37 sig_type=std_logic lab=VP}
-C {devices/lab_wire.sym} 6380 -540 0 1 {name=p38 sig_type=std_logic lab=OUT}
-C {devices/lab_wire.sym} 990 -160 0 0 {name=p39 sig_type=std_logic lab=OUT}
+C {devices/ipin.sym} 410 -210 0 0 {name=p27 lab=VDD}
+C {devices/ipin.sym} 410 -180 0 0 {name=p28 lab=VP}
+C {devices/ipin.sym} 410 -150 0 0 {name=p29 lab=VN}
+C {devices/ipin.sym} 410 -90 0 0 {name=p30 lab=VSS}
+C {devices/opin.sym} 530 -160 0 0 {name=p31 lab=OUT}
+C {devices/ipin.sym} 410 -120 0 0 {name=p32 lab=START}
+C {devices/lab_wire.sym} 410 -90 0 1 {name=p33 sig_type=std_logic lab=VSS}
+C {devices/lab_wire.sym} 410 -210 0 1 {name=p34 sig_type=std_logic lab=VDD}
+C {devices/lab_wire.sym} 410 -120 0 1 {name=p35 sig_type=std_logic lab=START}
+C {devices/lab_wire.sym} 410 -150 0 1 {name=p36 sig_type=std_logic lab=VN}
+C {devices/lab_wire.sym} 410 -180 0 1 {name=p37 sig_type=std_logic lab=VP}
+C {devices/lab_wire.sym} 6380 -540 0 1 {name=p38 sig_type=std_logic lab=OUTP}
+C {devices/lab_wire.sym} 530 -160 0 0 {name=p39 sig_type=std_logic lab=OUT}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 2120 -510 0 0 {name=x11}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 2480 -510 0 0 {name=x12}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 2840 -510 0 0 {name=x13}
@@ -282,3 +290,10 @@ C {devices/lab_wire.sym} 5280 -500 0 0 {name=p108 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 6010 -500 0 0 {name=p109 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 6310 -360 0 1 {name=p110 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 5580 -360 0 1 {name=p111 sig_type=std_logic lab=VN}
+C {devices/lab_wire.sym} 1110 -160 0 0 {name=p112 sig_type=std_logic lab=OUT}
+C {devices/lab_wire.sym} 440 -400 0 1 {name=p113 sig_type=std_logic lab=OUTN}
+C {devices/lab_wire.sym} 640 -180 0 1 {name=p114 sig_type=std_logic lab=OUTP}
+C {devices/lab_wire.sym} 640 -140 0 1 {name=p115 sig_type=std_logic lab=OUTN}
+C {sky130_stdcells/or2b_1.sym} 770 -160 0 0 {name=x35 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/dfxtp_1.sym} 950 -150 0 0 {name=x36 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {devices/lab_wire.sym} 860 -140 0 0 {name=p116 sig_type=std_logic lab=OUTP}
