@@ -51,7 +51,7 @@ C {devices/lab_wire.sym} 570 -280 2 0 {name=p17 sig_type=std_logic lab=VIN}
 C {devices/lab_wire.sym} 570 -310 2 0 {name=p18 sig_type=std_logic lab=IN}
 C {devices/opin.sym} 710 -300 0 0 {name=p19 lab=OUT}
 C {devices/lab_wire.sym} 670 -300 2 1 {name=p20 sig_type=std_logic lab=OUT}
-C {devices/param.sym} 430 -370 0 0 {name=s1 value="W_N=2 L_N=0.15 W_P=12 L_P=0.35"}
+C {devices/param.sym} 430 -370 0 0 {name=s1 value="W_N=1 L_N=0.15 W_P=3 L_P=0.35"}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 180 -400 0 0 {name=M1
 L=L_P
 W=W_P

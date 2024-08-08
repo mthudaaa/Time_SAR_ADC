@@ -137,14 +137,6 @@ N 6310 -540 6430 -540 {
 lab=OUTP}
 N 6310 -380 6550 -380 {
 lab=#net16}
-N 1040 -160 1110 -160 {
-lab=OUT}
-N 640 -180 710 -180 {
-lab=OUTP}
-N 640 -140 710 -140 {
-lab=OUTN}
-N 830 -160 860 -160 {
-lab=#net33}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 660 -510 0 0 {name=x1}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 1020 -510 0 0 {name=x2}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 1380 -510 0 0 {name=x3}
@@ -185,7 +177,7 @@ C {devices/ipin.sym} 410 -210 0 0 {name=p27 lab=VDD}
 C {devices/ipin.sym} 410 -180 0 0 {name=p28 lab=VP}
 C {devices/ipin.sym} 410 -150 0 0 {name=p29 lab=VN}
 C {devices/ipin.sym} 410 -90 0 0 {name=p30 lab=VSS}
-C {devices/opin.sym} 530 -160 0 0 {name=p31 lab=OUT}
+C {devices/opin.sym} 530 -200 0 0 {name=p31 lab=OUTP}
 C {devices/ipin.sym} 410 -120 0 0 {name=p32 lab=START}
 C {devices/lab_wire.sym} 410 -90 0 1 {name=p33 sig_type=std_logic lab=VSS}
 C {devices/lab_wire.sym} 410 -210 0 1 {name=p34 sig_type=std_logic lab=VDD}
@@ -193,7 +185,7 @@ C {devices/lab_wire.sym} 410 -120 0 1 {name=p35 sig_type=std_logic lab=START}
 C {devices/lab_wire.sym} 410 -150 0 1 {name=p36 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 410 -180 0 1 {name=p37 sig_type=std_logic lab=VP}
 C {devices/lab_wire.sym} 6380 -540 0 1 {name=p38 sig_type=std_logic lab=OUTP}
-C {devices/lab_wire.sym} 530 -160 0 0 {name=p39 sig_type=std_logic lab=OUT}
+C {devices/lab_wire.sym} 530 -200 0 0 {name=p39 sig_type=std_logic lab=OUTP}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 2120 -510 0 0 {name=x11}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 2480 -510 0 0 {name=x12}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc_delay.sym} 2840 -510 0 0 {name=x13}
@@ -290,10 +282,12 @@ C {devices/lab_wire.sym} 5280 -500 0 0 {name=p108 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 6010 -500 0 0 {name=p109 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 6310 -360 0 1 {name=p110 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 5580 -360 0 1 {name=p111 sig_type=std_logic lab=VN}
-C {devices/lab_wire.sym} 1110 -160 0 0 {name=p112 sig_type=std_logic lab=OUT}
 C {devices/lab_wire.sym} 440 -400 0 1 {name=p113 sig_type=std_logic lab=OUTN}
-C {devices/lab_wire.sym} 640 -180 0 1 {name=p114 sig_type=std_logic lab=OUTP}
-C {devices/lab_wire.sym} 640 -140 0 1 {name=p115 sig_type=std_logic lab=OUTN}
-C {sky130_stdcells/or2b_1.sym} 770 -160 0 0 {name=x35 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/dfxtp_1.sym} 950 -150 0 0 {name=x36 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {devices/lab_wire.sym} 860 -140 0 0 {name=p116 sig_type=std_logic lab=OUTP}
+C {devices/opin.sym} 530 -170 0 0 {name=p117 lab=OUTN}
+C {devices/lab_wire.sym} 530 -170 0 0 {name=p118 sig_type=std_logic lab=OUTN}
+C {devices/opin.sym} 530 -140 0 0 {name=p112 lab=READY}
+C {devices/lab_wire.sym} 530 -140 0 0 {name=p114 sig_type=std_logic lab=READY}
+C {sky130_stdcells/or2_1.sym} 850 -160 0 0 {name=x35 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {devices/lab_wire.sym} 790 -180 0 0 {name=p115 sig_type=std_logic lab=OUTP}
+C {devices/lab_wire.sym} 790 -140 0 0 {name=p116 sig_type=std_logic lab=OUTN}
+C {devices/lab_wire.sym} 910 -160 0 1 {name=p119 sig_type=std_logic lab=READY}

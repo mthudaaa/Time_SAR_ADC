@@ -1,0 +1,40 @@
+K {type=primitive
+format="@name @@VGND @@VPWR @@clk @@go @@rst @@sample @@valid @@cmp[1] @@cmp[0] @@result[7] @@result[6] @@result[5] @@result[4] @@result[3] @@result[2] @@result[1] @@result[0] @@value[7] @@value[6] @@value[5] @@value[4] @@value[3] @@value[2] @@value[1] @@value[0] sar_logic"
+template="name=x1 prefix=sky130_fd_sc_hd__ "
+extra=" prefix"}
+T {@symname} 0 -6 0 0 0.3 0.3 {hcenter=true}
+T {@name} 135 -72 0 0 0.2 0.2 {}
+L 4 -130 -60 130 -60 {}
+L 4 -130 60 130 60 {}
+L 4 -130 -60 -130 60 {}
+L 4 130 -60 130 60 {}
+B 5 -152.5 -52.5 -147.5 -47.5 {name=VGND dir=in }
+L 4 -150 -50 -130 -50 {}
+T {VGND} -125 -54 0 0 0.2 0.2 {}
+B 5 -152.5 -32.5 -147.5 -27.5 {name=VPWR dir=in }
+L 4 -150 -30 -130 -30 {}
+T {VPWR} -125 -34 0 0 0.2 0.2 {}
+B 5 -152.5 -12.5 -147.5 -7.5 {name=clk dir=in }
+L 4 -150 -10 -130 -10 {}
+T {clk} -125 -14 0 0 0.2 0.2 {}
+B 5 -152.5 7.5 -147.5 12.5 {name=go dir=in }
+L 4 -150 10 -130 10 {}
+T {go} -125 6 0 0 0.2 0.2 {}
+B 5 -152.5 27.5 -147.5 32.5 {name=rst dir=in }
+L 4 -150 30 -130 30 {}
+T {rst} -125 26 0 0 0.2 0.2 {}
+B 5 147.5 -52.5 152.5 -47.5 {name=sample dir=out }
+L 4 130 -50 150 -50 {}
+T {sample} 125 -54 0 1 0.2 0.2 {}
+B 5 147.5 -32.5 152.5 -27.5 {name=valid dir=out }
+L 4 130 -30 150 -30 {}
+T {valid} 125 -34 0 1 0.2 0.2 {}
+B 5 -152.5 47.5 -147.5 52.5 {name=cmp[1:0] dir=in }
+L 4 -150 50 -130 50 {}
+T {cmp[1:0]} -125 46 0 0 0.2 0.2 {}
+B 5 147.5 -12.5 152.5 -7.5 {name=result[7:0] dir=out }
+L 4 130 -10 150 -10 {}
+T {result[7:0]} 125 -14 0 1 0.2 0.2 {}
+B 5 147.5 7.5 152.5 12.5 {name=value[7:0] dir=out }
+L 4 130 10 150 10 {}
+T {value[7:0]} 125 6 0 1 0.2 0.2 {}

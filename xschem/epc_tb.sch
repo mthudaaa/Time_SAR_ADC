@@ -18,9 +18,9 @@ value="
 spice_ignore=false}
 C {/home/mthudaa/Documents/Time_SAR_ADC/xschem/epc.sym} 670 -630 0 0 {name=x1 }
 C {devices/vsource.sym} 210 -380 0 0 {name=V1 value=1.8 savecurrent=false}
-C {devices/vsource.sym} 210 -510 0 0 {name=V2 value="PULSE(0.99 0.89 50n 5n 5n 5m 10m)" savecurrent=false}
+C {devices/vsource.sym} 210 -510 0 0 {name=V2 value="PULSE(0.9001 0.8999 50n 5n 5n 0.5m 1m)" savecurrent=false}
 C {devices/vsource.sym} 210 -630 0 0 {name=V3 value=0.9 savecurrent=false}
-C {devices/vsource.sym} 210 -730 0 0 {name=V4 value="PULSE(1.8 0 50n 5n 5n 50u 1000u)" savecurrent=false}
+C {devices/vsource.sym} 210 -730 0 0 {name=V4 value="PULSE(1.8 0 50n 5n 5n 50u 100u)" savecurrent=false}
 C {devices/gnd.sym} 210 -350 0 0 {name=l1 lab=GND}
 C {devices/gnd.sym} 210 -480 0 0 {name=l2 lab=GND}
 C {devices/gnd.sym} 210 -600 0 0 {name=l3 lab=GND}
@@ -34,11 +34,16 @@ C {devices/lab_wire.sym} 520 -650 0 0 {name=p6 sig_type=std_logic lab=VP}
 C {devices/lab_wire.sym} 520 -630 0 0 {name=p7 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 520 -610 0 0 {name=p8 sig_type=std_logic lab=START}
 C {devices/gnd.sym} 480 -590 0 0 {name=l5 lab=GND}
-C {devices/lab_wire.sym} 820 -670 0 1 {name=p9 sig_type=std_logic lab=OUT}
+C {devices/lab_wire.sym} 820 -670 0 1 {name=p9 sig_type=std_logic lab=OUTP}
 C {devices/code.sym} 310 -230 0 0 {name=s2 only_toplevel=false value="
 .option wnflag=0
 .option savecurrents
 .control
-tran 1m 10m
-plot V(vp) V(vn) V(out)
+tran 1m 1m
+plot V(vp) V(vn)
+plot V(outp)
+plot V(outn)
+plot V(ready)
 .endc"}
+C {devices/lab_wire.sym} 820 -650 0 1 {name=p10 sig_type=std_logic lab=OUTN}
+C {devices/lab_wire.sym} 820 -630 0 1 {name=p11 sig_type=std_logic lab=READY}
