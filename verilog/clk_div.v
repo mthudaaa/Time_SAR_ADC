@@ -1,7 +1,5 @@
 module clk_div(en, clk, clk_cmp, clk_cmp_shifted);
 
-parameter N = 8;
-
 input en, clk;
 output clk_cmp, clk_cmp_shifted;
 reg cmp;
