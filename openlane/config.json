@@ -1,0 +1,39 @@
+{
+    "DESIGN_NAME": "adc_ctrl",
+    "VERILOG_FILES": "dir::src/*.v",
+    "PNR_SDC_FILE": "dir::src/impl.sdc",
+    "SIGNOFF_SDC_FILE": "dir::src/signoff.sdc",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 100,
+    "RT_MAX_LAYER": "met5",
+    "VDD_PIN_VOLTAGE": 1.8,
+    "DIE_AREA": [0, 0, 100, 200],
+    "pdk::sky130A": {
+        "MAX_FANOUT_CONSTRAINT": 6,
+        "FP_CORE_UTIL": 20,
+        "PL_TARGET_DENSITY_PCT": "expr::($FP_CORE_UTIL + 10.0)",
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 15
+        }
+    },
+    "meta": {
+    "version": 2,
+    "flow": [
+      "Yosys.Synthesis",
+      "OpenROAD.CheckSDCFiles",
+      "OpenROAD.Floorplan",
+      "OpenROAD.TapEndcapInsertion",
+      "OpenROAD.GeneratePDN",
+      "OpenROAD.IOPlacement",
+      "OpenROAD.GlobalPlacement",
+      "OpenROAD.DetailedPlacement",
+      "OpenROAD.GlobalRouting",
+      "OpenROAD.DetailedRouting",
+      "OpenROAD.FillInsertion",
+      "Magic.StreamOut",
+      "Magic.DRC",
+      "Magic.SpiceExtraction",
+      "Netgen.LVS"
+    ]
+  }
+}
