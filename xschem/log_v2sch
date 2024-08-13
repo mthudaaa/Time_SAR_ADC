@@ -1,0 +1,2082 @@
+ process_subckt(): curr_subckt=|adc_ctrl|
+
+
+
+ process_subckt() : adc_ctrl--> 
+clk clk_comp clk_comp_shifted en samp vcn vcp VPWR VGND dac_ctrl[7] dac_ctrl[6] dac_ctrl[5] dac_ctrl[4] dac_ctrl[3] dac_ctrl[2] dac_ctrl[1] dac_ctrl[0] dout[7] dout[6] dout[5] dout[4] dout[3] dout[2] dout[1] dout[0] 
+process(): skip = 0 --> .subckt adc_ctrl clk clk_comp clk_comp_shifted en samp vcn vcp VPWR VGND dac_ctrl[7] dac_ctrl[6] dac_ctrl[5] dac_ctrl[4] dac_ctrl[3] dac_ctrl[2] dac_ctrl[1] dac_ctrl[0] dout[7] dout[6] dout[5] dout[4] dout[3] dout[2] dout[1] dout[0]
+process(): skip = 0 --> *.PININFO clk:I clk_comp:O clk_comp_shifted:O en:I samp:O vcn:I vcp:I VPWR:B VGND:B dac_ctrl[7]:O dac_ctrl[6]:O dac_ctrl[5]:O dac_ctrl[4]:O dac_ctrl[3]:O dac_ctrl[2]:O dac_ctrl[1]:O dac_ctrl[0]:O dout[7]:O dout[6]:O dout[5]:O dout[4]:O dout[3]:O dout[2]:O dout[1]:O dout[0]:O
+process(): skip = 0 --> X_069_  en _041_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_069_  en _041_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_070_  cmp__processor__0_dcomp _042_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_070_  cmp__processor__0_dcomp _042_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_071_  sar__logic__0_deoc _043_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_071_  sar__logic__0_deoc _043_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_072_  sar__logic__0_dcount_o1_c _044_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_072_  sar__logic__0_dcount_o1_c _044_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_073_  sar__logic__0_dcount_o0_c _045_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_073_  sar__logic__0_dcount_o0_c _045_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_074_  vcn _046_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_074_  vcn _046_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_075_  smp__clk__div__0_dstart _047_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_075_  smp__clk__div__0_dstart _047_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_076_  sar__logic__0_dcount_o2_c _048_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_076_  sar__logic__0_dcount_o2_c _048_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_077_  clk _029_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_077_  clk _029_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_078_  en clk_comp _030_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_078_  en clk_comp _030_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2_2
+ print_signals() : component_name =  sky130_stdcells/nand2_2
+print_signals() : sky130_stdcells/nand2_2A found in library
+print_signals() : sky130_stdcells/nand2_2B found in library
+print_signals() : sky130_stdcells/nand2_2Y found in library
+process(): skip = 0 --> X_079_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _049_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_079_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _049_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nor2_2
+ print_signals() : component_name =  sky130_stdcells/nor2_2
+print_signals() : sky130_stdcells/nor2_2A found in library
+print_signals() : sky130_stdcells/nor2_2B found in library
+print_signals() : sky130_stdcells/nor2_2Y found in library
+process(): skip = 0 --> X_080_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c sar__logic__0_dcount_o2_c _050_ or3_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_080_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c sar__logic__0_dcount_o2_c _050_ or3_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/or3_2
+ print_signals() : component_name =  sky130_stdcells/or3_2
+print_signals() : sky130_stdcells/or3_2A found in library
+print_signals() : sky130_stdcells/or3_2B found in library
+print_signals() : sky130_stdcells/or3_2C found in library
+print_signals() : sky130_stdcells/or3_2X found in library
+process(): skip = 0 --> X_081_  clk_comp clk_comp_shifted _000_ and2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_081_  clk_comp clk_comp_shifted _000_ and2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and2b_2
+ print_signals() : component_name =  sky130_stdcells/and2b_2
+print_signals() : sky130_stdcells/and2b_2A_N found in library
+print_signals() : sky130_stdcells/and2b_2B found in library
+print_signals() : sky130_stdcells/and2b_2X found in library
+process(): skip = 0 --> X_082_  sar__logic__0_deoc clk_comp smp__clk__div__0_dstart clk_comp_shifted _051_ and4bb_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_082_  sar__logic__0_deoc clk_comp smp__clk__div__0_dstart clk_comp_shifted _051_ and4bb_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and4bb_2
+ print_signals() : component_name =  sky130_stdcells/and4bb_2
+print_signals() : sky130_stdcells/and4bb_2A_N found in library
+print_signals() : sky130_stdcells/and4bb_2B_N found in library
+print_signals() : sky130_stdcells/and4bb_2C found in library
+print_signals() : sky130_stdcells/and4bb_2D found in library
+print_signals() : sky130_stdcells/and4bb_2X found in library
+process(): skip = 0 --> X_083_  sar__logic__0_deoc clk_comp smp__clk__div__0_dstart clk_comp_shifted _052_ or4bb_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_083_  sar__logic__0_deoc clk_comp smp__clk__div__0_dstart clk_comp_shifted _052_ or4bb_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/or4bb_2
+ print_signals() : component_name =  sky130_stdcells/or4bb_2
+print_signals() : sky130_stdcells/or4bb_2A found in library
+print_signals() : sky130_stdcells/or4bb_2B found in library
+print_signals() : sky130_stdcells/or4bb_2C_N found in library
+print_signals() : sky130_stdcells/or4bb_2D_N found in library
+print_signals() : sky130_stdcells/or4bb_2X found in library
+process(): skip = 0 --> X_084_  cmp__processor__0_dcomp _052_ _053_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_084_  cmp__processor__0_dcomp _052_ _053_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nor2_2
+ print_signals() : component_name =  sky130_stdcells/nor2_2
+print_signals() : sky130_stdcells/nor2_2A found in library
+print_signals() : sky130_stdcells/nor2_2B found in library
+print_signals() : sky130_stdcells/nor2_2Y found in library
+process(): skip = 0 --> X_085_  sar__logic__0_deoc clk_comp _054_ nand2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_085_  sar__logic__0_deoc clk_comp _054_ nand2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2b_2
+ print_signals() : component_name =  sky130_stdcells/nand2b_2
+print_signals() : sky130_stdcells/nand2b_2A_N found in library
+print_signals() : sky130_stdcells/nand2b_2B found in library
+print_signals() : sky130_stdcells/nand2b_2Y found in library
+process(): skip = 0 --> X_086_  sar__logic__0_deoc dac_ctrl[0] _050_ _054_ _055_ o22a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_086_  sar__logic__0_deoc dac_ctrl[0] _050_ _054_ _055_ o22a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o22a_2
+ print_signals() : component_name =  sky130_stdcells/o22a_2
+print_signals() : sky130_stdcells/o22a_2A1 found in library
+print_signals() : sky130_stdcells/o22a_2A2 found in library
+print_signals() : sky130_stdcells/o22a_2B1 found in library
+print_signals() : sky130_stdcells/o22a_2B2 found in library
+print_signals() : sky130_stdcells/o22a_2X found in library
+process(): skip = 0 --> X_087_  _048_ _049_ _053_ _055_ _001_ a31o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_087_  _048_ _049_ _053_ _055_ _001_ a31o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a31o_2
+ print_signals() : component_name =  sky130_stdcells/a31o_2
+print_signals() : sky130_stdcells/a31o_2A1 found in library
+print_signals() : sky130_stdcells/a31o_2A2 found in library
+print_signals() : sky130_stdcells/a31o_2A3 found in library
+print_signals() : sky130_stdcells/a31o_2B1 found in library
+print_signals() : sky130_stdcells/a31o_2X found in library
+process(): skip = 0 --> X_088_  dac_ctrl[1] sar__logic__0_deoc _056_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_088_  dac_ctrl[1] sar__logic__0_deoc _056_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/or2_2
+ print_signals() : component_name =  sky130_stdcells/or2_2
+print_signals() : sky130_stdcells/or2_2A found in library
+print_signals() : sky130_stdcells/or2_2B found in library
+print_signals() : sky130_stdcells/or2_2X found in library
+process(): skip = 0 --> X_089_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _057_ and2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_089_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _057_ and2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and2b_2
+ print_signals() : component_name =  sky130_stdcells/and2b_2
+print_signals() : sky130_stdcells/and2b_2A_N found in library
+print_signals() : sky130_stdcells/and2b_2B found in library
+print_signals() : sky130_stdcells/and2b_2X found in library
+process(): skip = 0 --> X_090_  sar__logic__0_dcount_o2_c _054_ _057_ _058_ or3b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_090_  sar__logic__0_dcount_o2_c _054_ _057_ _058_ or3b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/or3b_2
+ print_signals() : component_name =  sky130_stdcells/or3b_2
+print_signals() : sky130_stdcells/or3b_2A found in library
+print_signals() : sky130_stdcells/or3b_2B found in library
+print_signals() : sky130_stdcells/or3b_2C_N found in library
+print_signals() : sky130_stdcells/or3b_2X found in library
+process(): skip = 0 --> X_091_  _048_ _053_ _057_ _058_ _056_ _002_ a32o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_091_  _048_ _053_ _057_ _058_ _056_ _002_ a32o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a32o_2
+ print_signals() : component_name =  sky130_stdcells/a32o_2
+print_signals() : sky130_stdcells/a32o_2A1 found in library
+print_signals() : sky130_stdcells/a32o_2A2 found in library
+print_signals() : sky130_stdcells/a32o_2A3 found in library
+print_signals() : sky130_stdcells/a32o_2B1 found in library
+print_signals() : sky130_stdcells/a32o_2B2 found in library
+print_signals() : sky130_stdcells/a32o_2X found in library
+process(): skip = 0 --> X_092_  sar__logic__0_deoc dac_ctrl[2] _059_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_092_  sar__logic__0_deoc dac_ctrl[2] _059_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/or2_2
+ print_signals() : component_name =  sky130_stdcells/or2_2
+print_signals() : sky130_stdcells/or2_2A found in library
+print_signals() : sky130_stdcells/or2_2B found in library
+print_signals() : sky130_stdcells/or2_2X found in library
+process(): skip = 0 --> X_093_  _044_ sar__logic__0_dcount_o0_c sar__logic__0_dcount_o2_c _054_ _059_ _060_ o41a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_093_  _044_ sar__logic__0_dcount_o0_c sar__logic__0_dcount_o2_c _054_ _059_ _060_ o41a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o41a_2
+ print_signals() : component_name =  sky130_stdcells/o41a_2
+print_signals() : sky130_stdcells/o41a_2A1 found in library
+print_signals() : sky130_stdcells/o41a_2A2 found in library
+print_signals() : sky130_stdcells/o41a_2A3 found in library
+print_signals() : sky130_stdcells/o41a_2A4 found in library
+print_signals() : sky130_stdcells/o41a_2B1 found in library
+print_signals() : sky130_stdcells/o41a_2X found in library
+process(): skip = 0 --> X_094_  _042_ sar__logic__0_dcount_o1_c _045_ _051_ _061_ and4_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_094_  _042_ sar__logic__0_dcount_o1_c _045_ _051_ _061_ and4_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and4_2
+ print_signals() : component_name =  sky130_stdcells/and4_2
+print_signals() : sky130_stdcells/and4_2A found in library
+print_signals() : sky130_stdcells/and4_2B found in library
+print_signals() : sky130_stdcells/and4_2C found in library
+print_signals() : sky130_stdcells/and4_2D found in library
+print_signals() : sky130_stdcells/and4_2X found in library
+process(): skip = 0 --> X_095_  sar__logic__0_dcount_o1_c _045_ _048_ _053_ _060_ _003_ a41o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_095_  sar__logic__0_dcount_o1_c _045_ _048_ _053_ _060_ _003_ a41o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a41o_2
+ print_signals() : component_name =  sky130_stdcells/a41o_2
+print_signals() : sky130_stdcells/a41o_2A1 found in library
+print_signals() : sky130_stdcells/a41o_2A2 found in library
+print_signals() : sky130_stdcells/a41o_2A3 found in library
+print_signals() : sky130_stdcells/a41o_2A4 found in library
+print_signals() : sky130_stdcells/a41o_2B1 found in library
+print_signals() : sky130_stdcells/a41o_2X found in library
+process(): skip = 0 --> X_096_  sar__logic__0_deoc dac_ctrl[3] _062_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_096_  sar__logic__0_deoc dac_ctrl[3] _062_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/or2_2
+ print_signals() : component_name =  sky130_stdcells/or2_2
+print_signals() : sky130_stdcells/or2_2A found in library
+print_signals() : sky130_stdcells/or2_2B found in library
+print_signals() : sky130_stdcells/or2_2X found in library
+process(): skip = 0 --> X_097_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _063_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_097_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _063_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2_2
+ print_signals() : component_name =  sky130_stdcells/nand2_2
+print_signals() : sky130_stdcells/nand2_2A found in library
+print_signals() : sky130_stdcells/nand2_2B found in library
+print_signals() : sky130_stdcells/nand2_2Y found in library
+process(): skip = 0 --> X_098_  _044_ _045_ sar__logic__0_dcount_o2_c _054_ _062_ _064_ o41a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_098_  _044_ _045_ sar__logic__0_dcount_o2_c _054_ _062_ _064_ o41a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o41a_2
+ print_signals() : component_name =  sky130_stdcells/o41a_2
+print_signals() : sky130_stdcells/o41a_2A1 found in library
+print_signals() : sky130_stdcells/o41a_2A2 found in library
+print_signals() : sky130_stdcells/o41a_2A3 found in library
+print_signals() : sky130_stdcells/o41a_2A4 found in library
+print_signals() : sky130_stdcells/o41a_2B1 found in library
+print_signals() : sky130_stdcells/o41a_2X found in library
+process(): skip = 0 --> X_099_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _048_ _053_ _064_ _004_ a41o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_099_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _048_ _053_ _064_ _004_ a41o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a41o_2
+ print_signals() : component_name =  sky130_stdcells/a41o_2
+print_signals() : sky130_stdcells/a41o_2A1 found in library
+print_signals() : sky130_stdcells/a41o_2A2 found in library
+print_signals() : sky130_stdcells/a41o_2A3 found in library
+print_signals() : sky130_stdcells/a41o_2A4 found in library
+print_signals() : sky130_stdcells/a41o_2B1 found in library
+print_signals() : sky130_stdcells/a41o_2X found in library
+process(): skip = 0 --> X_100_  clk_comp sar__logic__0_dcount_o2_c _065_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_100_  clk_comp sar__logic__0_dcount_o2_c _065_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2_2
+ print_signals() : component_name =  sky130_stdcells/nand2_2
+print_signals() : sky130_stdcells/nand2_2A found in library
+print_signals() : sky130_stdcells/nand2_2B found in library
+print_signals() : sky130_stdcells/nand2_2Y found in library
+process(): skip = 0 --> X_101_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _065_ dac_ctrl[4] _066_ o31a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_101_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c _065_ dac_ctrl[4] _066_ o31a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o31a_2
+ print_signals() : component_name =  sky130_stdcells/o31a_2
+print_signals() : sky130_stdcells/o31a_2A1 found in library
+print_signals() : sky130_stdcells/o31a_2A2 found in library
+print_signals() : sky130_stdcells/o31a_2A3 found in library
+print_signals() : sky130_stdcells/o31a_2B1 found in library
+print_signals() : sky130_stdcells/o31a_2X found in library
+process(): skip = 0 --> X_102_  sar__logic__0_dcount_o2_c _049_ _053_ _066_ sar__logic__0_deoc _005_ a311o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_102_  sar__logic__0_dcount_o2_c _049_ _053_ _066_ sar__logic__0_deoc _005_ a311o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a311o_2
+ print_signals() : component_name =  sky130_stdcells/a311o_2
+print_signals() : sky130_stdcells/a311o_2A1 found in library
+print_signals() : sky130_stdcells/a311o_2A2 found in library
+print_signals() : sky130_stdcells/a311o_2A3 found in library
+print_signals() : sky130_stdcells/a311o_2B1 found in library
+print_signals() : sky130_stdcells/a311o_2C1 found in library
+print_signals() : sky130_stdcells/a311o_2X found in library
+process(): skip = 0 --> X_103_  sar__logic__0_deoc dac_ctrl[5] _067_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_103_  sar__logic__0_deoc dac_ctrl[5] _067_ or2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/or2_2
+ print_signals() : component_name =  sky130_stdcells/or2_2
+print_signals() : sky130_stdcells/or2_2A found in library
+print_signals() : sky130_stdcells/or2_2B found in library
+print_signals() : sky130_stdcells/or2_2X found in library
+process(): skip = 0 --> X_104_  sar__logic__0_dcount_o1_c _045_ _048_ _054_ _067_ _068_ o41a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_104_  sar__logic__0_dcount_o1_c _045_ _048_ _054_ _067_ _068_ o41a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o41a_2
+ print_signals() : component_name =  sky130_stdcells/o41a_2
+print_signals() : sky130_stdcells/o41a_2A1 found in library
+print_signals() : sky130_stdcells/o41a_2A2 found in library
+print_signals() : sky130_stdcells/o41a_2A3 found in library
+print_signals() : sky130_stdcells/o41a_2A4 found in library
+print_signals() : sky130_stdcells/o41a_2B1 found in library
+print_signals() : sky130_stdcells/o41a_2X found in library
+process(): skip = 0 --> X_105_  sar__logic__0_dcount_o2_c _053_ _057_ _068_ _006_ a31o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_105_  sar__logic__0_dcount_o2_c _053_ _057_ _068_ _006_ a31o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a31o_2
+ print_signals() : component_name =  sky130_stdcells/a31o_2
+print_signals() : sky130_stdcells/a31o_2A1 found in library
+print_signals() : sky130_stdcells/a31o_2A2 found in library
+print_signals() : sky130_stdcells/a31o_2A3 found in library
+print_signals() : sky130_stdcells/a31o_2B1 found in library
+print_signals() : sky130_stdcells/a31o_2X found in library
+process(): skip = 0 --> X_106_  _044_ sar__logic__0_dcount_o0_c _065_ dac_ctrl[6] _033_ o31a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_106_  _044_ sar__logic__0_dcount_o0_c _065_ dac_ctrl[6] _033_ o31a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o31a_2
+ print_signals() : component_name =  sky130_stdcells/o31a_2
+print_signals() : sky130_stdcells/o31a_2A1 found in library
+print_signals() : sky130_stdcells/o31a_2A2 found in library
+print_signals() : sky130_stdcells/o31a_2A3 found in library
+print_signals() : sky130_stdcells/o31a_2B1 found in library
+print_signals() : sky130_stdcells/o31a_2X found in library
+process(): skip = 0 --> X_107_  sar__logic__0_dcount_o2_c _061_ _033_ sar__logic__0_deoc _007_ a211o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_107_  sar__logic__0_dcount_o2_c _061_ _033_ sar__logic__0_deoc _007_ a211o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a211o_2
+ print_signals() : component_name =  sky130_stdcells/a211o_2
+print_signals() : sky130_stdcells/a211o_2A1 found in library
+print_signals() : sky130_stdcells/a211o_2A2 found in library
+print_signals() : sky130_stdcells/a211o_2B1 found in library
+print_signals() : sky130_stdcells/a211o_2C1 found in library
+print_signals() : sky130_stdcells/a211o_2X found in library
+process(): skip = 0 --> X_108_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c sar__logic__0_dcount_o2_c _034_ and3_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_108_  sar__logic__0_dcount_o1_c sar__logic__0_dcount_o0_c sar__logic__0_dcount_o2_c _034_ and3_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and3_2
+ print_signals() : component_name =  sky130_stdcells/and3_2
+print_signals() : sky130_stdcells/and3_2A found in library
+print_signals() : sky130_stdcells/and3_2B found in library
+print_signals() : sky130_stdcells/and3_2C found in library
+print_signals() : sky130_stdcells/and3_2X found in library
+process(): skip = 0 --> X_109_  _051_ _034_ _035_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_109_  _051_ _034_ _035_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2_2
+ print_signals() : component_name =  sky130_stdcells/nand2_2
+print_signals() : sky130_stdcells/nand2_2A found in library
+print_signals() : sky130_stdcells/nand2_2B found in library
+print_signals() : sky130_stdcells/nand2_2Y found in library
+process(): skip = 0 --> X_110_  _035_ _020_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_110_  _035_ _020_ inv_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/inv_2
+ print_signals() : component_name =  sky130_stdcells/inv_2
+print_signals() : sky130_stdcells/inv_2A found in library
+print_signals() : sky130_stdcells/inv_2Y found in library
+process(): skip = 0 --> X_111_  clk_comp _034_ _036_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_111_  clk_comp _034_ _036_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2_2
+ print_signals() : component_name =  sky130_stdcells/nand2_2
+print_signals() : sky130_stdcells/nand2_2A found in library
+print_signals() : sky130_stdcells/nand2_2B found in library
+print_signals() : sky130_stdcells/nand2_2Y found in library
+process(): skip = 0 --> X_112_  _042_ _020_ _036_ dac_ctrl[7] sar__logic__0_deoc _008_ a221o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_112_  _042_ _020_ _036_ dac_ctrl[7] sar__logic__0_deoc _008_ a221o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a221o_2
+ print_signals() : component_name =  sky130_stdcells/a221o_2
+print_signals() : sky130_stdcells/a221o_2A1 found in library
+print_signals() : sky130_stdcells/a221o_2A2 found in library
+print_signals() : sky130_stdcells/a221o_2B1 found in library
+print_signals() : sky130_stdcells/a221o_2B2 found in library
+print_signals() : sky130_stdcells/a221o_2C1 found in library
+print_signals() : sky130_stdcells/a221o_2X found in library
+process(): skip = 0 --> X_113_  sar__logic__0_deoc smp__clk__div__0_dstart _037_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_113_  sar__logic__0_deoc smp__clk__div__0_dstart _037_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nor2_2
+ print_signals() : component_name =  sky130_stdcells/nor2_2
+print_signals() : sky130_stdcells/nor2_2A found in library
+print_signals() : sky130_stdcells/nor2_2B found in library
+print_signals() : sky130_stdcells/nor2_2Y found in library
+process(): skip = 0 --> X_114_  _041_ _037_ _027_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_114_  _041_ _037_ _027_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nor2_2
+ print_signals() : component_name =  sky130_stdcells/nor2_2
+print_signals() : sky130_stdcells/nor2_2A found in library
+print_signals() : sky130_stdcells/nor2_2B found in library
+print_signals() : sky130_stdcells/nor2_2Y found in library
+process(): skip = 0 --> X_115_  samp _037_ _038_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_115_  samp _037_ _038_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2_2
+ print_signals() : component_name =  sky130_stdcells/nand2_2
+print_signals() : sky130_stdcells/nand2_2A found in library
+print_signals() : sky130_stdcells/nand2_2B found in library
+print_signals() : sky130_stdcells/nand2_2Y found in library
+process(): skip = 0 --> X_116_  _043_ _047_ samp _038_ en _028_ o311a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_116_  _043_ _047_ samp _038_ en _028_ o311a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o311a_2
+ print_signals() : component_name =  sky130_stdcells/o311a_2
+print_signals() : sky130_stdcells/o311a_2A1 found in library
+print_signals() : sky130_stdcells/o311a_2A2 found in library
+print_signals() : sky130_stdcells/o311a_2A3 found in library
+print_signals() : sky130_stdcells/o311a_2B1 found in library
+print_signals() : sky130_stdcells/o311a_2C1 found in library
+print_signals() : sky130_stdcells/o311a_2X found in library
+process(): skip = 0 --> X_117_  samp _037_ en _025_ and3b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_117_  samp _037_ en _025_ and3b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and3b_2
+ print_signals() : component_name =  sky130_stdcells/and3b_2
+print_signals() : sky130_stdcells/and3b_2A_N found in library
+print_signals() : sky130_stdcells/and3b_2B found in library
+print_signals() : sky130_stdcells/and3b_2C found in library
+print_signals() : sky130_stdcells/and3b_2X found in library
+process(): skip = 0 --> X_118_  _041_ _038_ _026_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_118_  _041_ _038_ _026_ nor2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nor2_2
+ print_signals() : component_name =  sky130_stdcells/nor2_2
+print_signals() : sky130_stdcells/nor2_2A found in library
+print_signals() : sky130_stdcells/nor2_2B found in library
+print_signals() : sky130_stdcells/nor2_2Y found in library
+process(): skip = 0 --> X_119_  sar__logic__0_deoc clk_comp _053_ _022_ nor3_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_119_  sar__logic__0_deoc clk_comp _053_ _022_ nor3_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nor3_2
+ print_signals() : component_name =  sky130_stdcells/nor3_2
+print_signals() : sky130_stdcells/nor3_2A found in library
+print_signals() : sky130_stdcells/nor3_2B found in library
+print_signals() : sky130_stdcells/nor3_2C found in library
+print_signals() : sky130_stdcells/nor3_2Y found in library
+process(): skip = 0 --> X_120_  _051_ _034_ _041_ _021_ a21oi_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_120_  _051_ _034_ _041_ _021_ a21oi_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a21oi_2
+ print_signals() : component_name =  sky130_stdcells/a21oi_2
+print_signals() : sky130_stdcells/a21oi_2A1 found in library
+print_signals() : sky130_stdcells/a21oi_2A2 found in library
+print_signals() : sky130_stdcells/a21oi_2B1 found in library
+print_signals() : sky130_stdcells/a21oi_2Y found in library
+process(): skip = 0 --> X_121_  _043_ _021_ _023_ and2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_121_  _043_ _021_ _023_ and2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and2_2
+ print_signals() : component_name =  sky130_stdcells/and2_2
+print_signals() : sky130_stdcells/and2_2A found in library
+print_signals() : sky130_stdcells/and2_2B found in library
+print_signals() : sky130_stdcells/and2_2X found in library
+process(): skip = 0 --> X_122_  _052_ _034_ en _043_ _024_ o211a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_122_  _052_ _034_ en _043_ _024_ o211a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o211a_2
+ print_signals() : component_name =  sky130_stdcells/o211a_2
+print_signals() : sky130_stdcells/o211a_2A1 found in library
+print_signals() : sky130_stdcells/o211a_2A2 found in library
+print_signals() : sky130_stdcells/o211a_2B1 found in library
+print_signals() : sky130_stdcells/o211a_2C1 found in library
+print_signals() : sky130_stdcells/o211a_2X found in library
+process(): skip = 0 --> X_123_  dac_ctrl[0] _035_ _021_ dout[0] _012_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_123_  dac_ctrl[0] _035_ _021_ dout[0] _012_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_124_  dac_ctrl[1] _035_ _021_ dout[1] _013_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_124_  dac_ctrl[1] _035_ _021_ dout[1] _013_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_125_  dac_ctrl[2] _035_ _021_ dout[2] _014_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_125_  dac_ctrl[2] _035_ _021_ dout[2] _014_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_126_  dac_ctrl[3] _035_ _021_ dout[3] _015_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_126_  dac_ctrl[3] _035_ _021_ dout[3] _015_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_127_  dac_ctrl[4] _035_ _021_ dout[4] _016_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_127_  dac_ctrl[4] _035_ _021_ dout[4] _016_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_128_  dac_ctrl[5] _035_ _021_ dout[5] _017_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_128_  dac_ctrl[5] _035_ _021_ dout[5] _017_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_129_  dac_ctrl[6] _035_ _021_ dout[6] _018_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_129_  dac_ctrl[6] _035_ _021_ dout[6] _018_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_130_  dac_ctrl[7] _035_ _021_ dout[7] _019_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_130_  dac_ctrl[7] _035_ _021_ dout[7] _019_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_131_  _051_ _024_ sar__logic__0_dcount_o0_c _009_ mux2_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_131_  _051_ _024_ sar__logic__0_dcount_o0_c _009_ mux2_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/mux2_1
+ print_signals() : component_name =  sky130_stdcells/mux2_1
+print_signals() : sky130_stdcells/mux2_1A0 found in library
+print_signals() : sky130_stdcells/mux2_1A1 found in library
+print_signals() : sky130_stdcells/mux2_1S found in library
+print_signals() : sky130_stdcells/mux2_1X found in library
+process(): skip = 0 --> X_132_  _051_ _063_ _039_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_132_  _051_ _063_ _039_ nand2_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/nand2_2
+ print_signals() : component_name =  sky130_stdcells/nand2_2
+print_signals() : sky130_stdcells/nand2_2A found in library
+print_signals() : sky130_stdcells/nand2_2B found in library
+print_signals() : sky130_stdcells/nand2_2Y found in library
+process(): skip = 0 --> X_133_  _049_ _039_ _024_ sar__logic__0_dcount_o1_c _010_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_133_  _049_ _039_ _024_ sar__logic__0_dcount_o1_c _010_ a2bb2o_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a2bb2o_2
+ print_signals() : component_name =  sky130_stdcells/a2bb2o_2
+print_signals() : sky130_stdcells/a2bb2o_2A1_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2A2_N found in library
+print_signals() : sky130_stdcells/a2bb2o_2B1 found in library
+print_signals() : sky130_stdcells/a2bb2o_2B2 found in library
+print_signals() : sky130_stdcells/a2bb2o_2X found in library
+process(): skip = 0 --> X_134_  _041_ sar__logic__0_deoc _048_ _052_ _034_ _040_ o32a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_134_  _041_ sar__logic__0_deoc _048_ _052_ _034_ _040_ o32a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o32a_2
+ print_signals() : component_name =  sky130_stdcells/o32a_2
+print_signals() : sky130_stdcells/o32a_2A1 found in library
+print_signals() : sky130_stdcells/o32a_2A2 found in library
+print_signals() : sky130_stdcells/o32a_2A3 found in library
+print_signals() : sky130_stdcells/o32a_2B1 found in library
+print_signals() : sky130_stdcells/o32a_2B2 found in library
+print_signals() : sky130_stdcells/o32a_2X found in library
+process(): skip = 0 --> X_135_  _048_ _063_ _040_ _011_ a21oi_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_135_  _048_ _063_ _040_ _011_ a21oi_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/a21oi_2
+ print_signals() : component_name =  sky130_stdcells/a21oi_2
+print_signals() : sky130_stdcells/a21oi_2A1 found in library
+print_signals() : sky130_stdcells/a21oi_2A2 found in library
+print_signals() : sky130_stdcells/a21oi_2B1 found in library
+print_signals() : sky130_stdcells/a21oi_2Y found in library
+process(): skip = 0 --> X_136_  clk_comp_shifted en _031_ and2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_136_  clk_comp_shifted en _031_ and2b_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/and2b_2
+ print_signals() : component_name =  sky130_stdcells/and2b_2
+print_signals() : sky130_stdcells/and2b_2A_N found in library
+print_signals() : sky130_stdcells/and2b_2B found in library
+print_signals() : sky130_stdcells/and2b_2X found in library
+process(): skip = 0 --> X_137_  vcp _046_ en _032_ o21a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_137_  vcp _046_ en _032_ o21a_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/o21a_2
+ print_signals() : component_name =  sky130_stdcells/o21a_2
+print_signals() : sky130_stdcells/o21a_2A1 found in library
+print_signals() : sky130_stdcells/o21a_2A2 found in library
+print_signals() : sky130_stdcells/o21a_2B1 found in library
+print_signals() : sky130_stdcells/o21a_2X found in library
+process(): skip = 0 --> X_138_  _029_ _030_ clk_comp dfxtp_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_138_  _029_ _030_ clk_comp dfxtp_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dfxtp_2
+ print_signals() : component_name =  sky130_stdcells/dfxtp_2
+print_signals() : sky130_stdcells/dfxtp_2CLK found in library
+print_signals() : sky130_stdcells/dfxtp_2D found in library
+print_signals() : sky130_stdcells/dfxtp_2Q found in library
+process(): skip = 0 --> X_139_  clk _031_ clk_comp_shifted dfxtp_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_139_  clk _031_ clk_comp_shifted dfxtp_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dfxtp_2
+ print_signals() : component_name =  sky130_stdcells/dfxtp_2
+print_signals() : sky130_stdcells/dfxtp_2CLK found in library
+print_signals() : sky130_stdcells/dfxtp_2D found in library
+print_signals() : sky130_stdcells/dfxtp_2Q found in library
+process(): skip = 0 --> X_140_  _025_ _027_ samp dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_140_  _025_ _027_ samp dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_141_  _026_ _028_ smp__clk__div__0_dstart dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_141_  _026_ _028_ smp__clk__div__0_dstart dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_142_  _000_ _032_ cmp__processor__0_dcomp dfxtp_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_142_  _000_ _032_ cmp__processor__0_dcomp dfxtp_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dfxtp_2
+ print_signals() : component_name =  sky130_stdcells/dfxtp_2
+print_signals() : sky130_stdcells/dfxtp_2CLK found in library
+print_signals() : sky130_stdcells/dfxtp_2D found in library
+print_signals() : sky130_stdcells/dfxtp_2Q found in library
+process(): skip = 0 --> X_143_  _001_ _022_ dac_ctrl[0] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_143_  _001_ _022_ dac_ctrl[0] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_144_  _002_ _022_ dac_ctrl[1] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_144_  _002_ _022_ dac_ctrl[1] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_145_  _003_ _022_ dac_ctrl[2] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_145_  _003_ _022_ dac_ctrl[2] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_146_  _004_ _022_ dac_ctrl[3] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_146_  _004_ _022_ dac_ctrl[3] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_147_  _005_ _022_ dac_ctrl[4] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_147_  _005_ _022_ dac_ctrl[4] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_148_  _006_ _022_ dac_ctrl[5] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_148_  _006_ _022_ dac_ctrl[5] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_149_  _007_ _022_ dac_ctrl[6] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_149_  _007_ _022_ dac_ctrl[6] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_150_  _008_ _022_ dac_ctrl[7] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_150_  _008_ _022_ dac_ctrl[7] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_151_  _012_ _021_ dout[0] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_151_  _012_ _021_ dout[0] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_152_  _013_ _021_ dout[1] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_152_  _013_ _021_ dout[1] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_153_  _014_ _021_ dout[2] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_153_  _014_ _021_ dout[2] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_154_  _015_ _021_ dout[3] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_154_  _015_ _021_ dout[3] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_155_  _016_ _021_ dout[4] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_155_  _016_ _021_ dout[4] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_156_  _017_ _021_ dout[5] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_156_  _017_ _021_ dout[5] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_157_  _018_ _021_ dout[6] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_157_  _018_ _021_ dout[6] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_158_  _019_ _021_ dout[7] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_158_  _019_ _021_ dout[7] dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_159_  _020_ _023_ sar__logic__0_deoc dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_159_  _020_ _023_ sar__logic__0_deoc dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_160_  _009_ _024_ sar__logic__0_dcount_o0_c dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_160_  _009_ _024_ sar__logic__0_dcount_o0_c dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_161_  _010_ _024_ sar__logic__0_dcount_o1_c dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_161_  _010_ _024_ sar__logic__0_dcount_o1_c dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> X_162_  _011_ _024_ sar__logic__0_dcount_o2_c dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:X_162_  _011_ _024_ sar__logic__0_dcount_o2_c dlxtn_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/dlxtn_1
+ print_signals() : component_name =  sky130_stdcells/dlxtn_1
+print_signals() : sky130_stdcells/dlxtn_1D found in library
+print_signals() : sky130_stdcells/dlxtn_1GATE_N found in library
+print_signals() : sky130_stdcells/dlxtn_1Q found in library
+process(): skip = 0 --> XPHY_EDGE_ROW_0_Right_0  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_0_Right_0  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_1_Right_1  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_1_Right_1  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_2_Right_2  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_2_Right_2  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_3_Right_3  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_3_Right_3  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_4_Right_4  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_4_Right_4  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_5_Right_5  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_5_Right_5  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_6_Right_6  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_6_Right_6  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_7_Right_7  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_7_Right_7  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_8_Right_8  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_8_Right_8  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_9_Right_9  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_9_Right_9  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_10_Right_10  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_10_Right_10  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_11_Right_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_11_Right_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_12_Right_12  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_12_Right_12  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_13_Right_13  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_13_Right_13  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_14_Right_14  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_14_Right_14  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_15_Right_15  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_15_Right_15  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_16_Right_16  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_16_Right_16  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_17_Right_17  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_17_Right_17  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_18_Right_18  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_18_Right_18  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_19_Right_19  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_19_Right_19  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_20_Right_20  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_20_Right_20  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_21_Right_21  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_21_Right_21  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_22_Right_22  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_22_Right_22  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_23_Right_23  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_23_Right_23  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_24_Right_24  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_24_Right_24  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_0_Left_25  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_0_Left_25  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_1_Left_26  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_1_Left_26  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_2_Left_27  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_2_Left_27  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_3_Left_28  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_3_Left_28  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_4_Left_29  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_4_Left_29  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_5_Left_30  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_5_Left_30  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_6_Left_31  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_6_Left_31  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_7_Left_32  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_7_Left_32  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_8_Left_33  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_8_Left_33  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_9_Left_34  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_9_Left_34  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_10_Left_35  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_10_Left_35  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_11_Left_36  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_11_Left_36  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_12_Left_37  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_12_Left_37  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_13_Left_38  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_13_Left_38  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_14_Left_39  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_14_Left_39  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_15_Left_40  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_15_Left_40  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_16_Left_41  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_16_Left_41  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_17_Left_42  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_17_Left_42  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_18_Left_43  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_18_Left_43  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_19_Left_44  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_19_Left_44  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_20_Left_45  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_20_Left_45  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_21_Left_46  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_21_Left_46  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_22_Left_47  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_22_Left_47  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_23_Left_48  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_23_Left_48  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XPHY_EDGE_ROW_24_Left_49  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XPHY_EDGE_ROW_24_Left_49  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_50  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_0_50  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_51  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_0_51  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_52  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_0_52  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_53  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_0_53  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_54  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_0_54  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_1_55  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_1_55  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_1_56  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_1_56  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_2_57  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_2_57  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_2_58  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_2_58  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_2_59  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_2_59  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_3_60  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_3_60  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_3_61  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_3_61  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_4_62  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_4_62  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_4_63  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_4_63  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_4_64  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_4_64  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_5_65  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_5_65  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_5_66  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_5_66  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_6_67  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_6_67  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_6_68  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_6_68  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_6_69  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_6_69  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_7_70  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_7_70  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_7_71  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_7_71  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_8_72  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_8_72  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_8_73  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_8_73  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_8_74  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_8_74  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_9_75  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_9_75  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_9_76  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_9_76  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_10_77  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_10_77  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_10_78  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_10_78  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_10_79  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_10_79  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_11_80  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_11_80  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_11_81  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_11_81  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_12_82  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_12_82  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_12_83  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_12_83  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_12_84  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_12_84  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_13_85  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_13_85  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_13_86  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_13_86  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_14_87  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_14_87  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_14_88  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_14_88  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_14_89  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_14_89  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_15_90  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_15_90  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_15_91  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_15_91  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_16_92  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_16_92  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_16_93  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_16_93  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_16_94  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_16_94  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_17_95  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_17_95  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_17_96  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_17_96  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_18_97  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_18_97  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_18_98  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_18_98  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_18_99  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_18_99  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_19_100  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_19_100  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_19_101  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_19_101  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_20_102  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_20_102  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_20_103  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_20_103  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_20_104  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_20_104  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_21_105  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_21_105  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_21_106  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_21_106  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_22_107  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_22_107  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_22_108  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_22_108  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_22_109  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_22_109  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_23_110  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_23_110  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_23_111  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_23_111  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_112  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_24_112  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_113  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_24_113  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_114  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_24_114  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_115  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_24_115  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_116  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): X instance:XTAP_TAPCELL_ROW_24_116  tapvpwrvgnd_1 VGND=VGND VPWR=VPWR
+process(): inst_sub=sky130_stdcells/tapvpwrvgnd_1
+ print_signals() : component_name =  sky130_stdcells/tapvpwrvgnd_1
+process(): skip = 0 --> XFILLER_0_0_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_0_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_0_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_0_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_0_81  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_0_81  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_0_109  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_0_109  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_0_137  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_0_137  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_0_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_0_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_0_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_0_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_1_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_1_33  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_33  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_1_49  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_49  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_1_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_1_105  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_105  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_1_111  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_111  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_1_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_1_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_1_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_2_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_2_21  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_21  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_2_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_2_41  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_41  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_2_55  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_55  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_2_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_2_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_2_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_2_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_2_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_2_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_2_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_3_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_3_41  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_41  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_3_57  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_57  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_3_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_3_102  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_102  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_3_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_3_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_3_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_3_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_4_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_4_53  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_53  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_4_57  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_57  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_4_75  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_75  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_4_81  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_81  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_4_85  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_85  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_4_89  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_89  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_4_96  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_96  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_4_100  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_100  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_4_130  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_130  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_4_138  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_138  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_4_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_4_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_4_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_5_27  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_5_27  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_5_35  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_5_35  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_5_50  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_5_50  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_5_102  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_5_102  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_5_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_5_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_5_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_5_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_5_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_5_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_6_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_6_24  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_24  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_6_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_6_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_6_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_6_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_6_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_6_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_6_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_7_48  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_7_48  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_7_57  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_7_57  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_7_83  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_7_83  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_7_101  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_7_101  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_7_109  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_7_109  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_7_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_7_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_7_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_7_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_8_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_8_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_8_23  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_23  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_8_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_8_58  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_58  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_8_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_8_85  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_85  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_8_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_8_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_8_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_9_39  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_39  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_9_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_9_66  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_66  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_9_87  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_87  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_9_105  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_105  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_9_111  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_111  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_9_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_9_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_9_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_10_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_10_41  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_41  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_10_49  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_49  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_10_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_10_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_10_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_10_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_10_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_10_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_11_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_11_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_11_51  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_51  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_11_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_11_81  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_81  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_11_89  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_89  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_11_100  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_100  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_11_106  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_106  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_11_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_11_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_11_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_12_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_12_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_12_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_12_85  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_85  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_12_96  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_96  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_12_131  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_131  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_12_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_12_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_12_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_12_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_13_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_13_40  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_40  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_13_64  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_64  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_13_85  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_85  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_13_98  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_98  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_13_102  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_102  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_13_108  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_108  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_13_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_13_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_13_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_14_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_14_9  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_9  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_14_22  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_22  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_14_48  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_48  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_14_74  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_74  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_14_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_82  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_14_85  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_85  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_14_93  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_93  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_14_130  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_130  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_14_138  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_138  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_14_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_14_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_14_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_15_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_15_9  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_9  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_15_29  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_29  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_15_48  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_48  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_15_57  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_57  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_15_111  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_111  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_15_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_15_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_15_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_16_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_16_20  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_20  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_16_65  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_65  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_16_78  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_78  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_16_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_16_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_16_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_16_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_16_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_17_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_17_3  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_17_45  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_17_45  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_17_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_17_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_17_81  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_17_81  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_17_87  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_17_87  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_17_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_17_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_17_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_17_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_18_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_18_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_18_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_18_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_18_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_18_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_18_130  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_18_130  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_18_138  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_18_138  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_18_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_18_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_18_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_18_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_19_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_19_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_19_47  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_47  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_19_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_19_72  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_72  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_19_76  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_76  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_19_106  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_106  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_19_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_19_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_19_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_20_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_20_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_20_24  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_24  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_20_41  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_41  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_20_60  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_60  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_20_79  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_79  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_20_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_20_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_20_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_20_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_20_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_20_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_21_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_21_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_21_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_21_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_21_33  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_21_33  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_21_41  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_21_41  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_21_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_21_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_21_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_21_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_21_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_21_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_22_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_22_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_11  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_22_24  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_24  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_22_41  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_41  decap_4 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_4
+ print_signals() : component_name =  sky130_stdcells/decap_4
+process(): skip = 0 --> XFILLER_0_22_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_77  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_22_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_83  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_22_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_133  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_22_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_139  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_22_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_22_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_22_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_23_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_23_3  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_23_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_23_11  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_23_47  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_23_47  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_23_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_23_55  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_23_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_23_110  fill_2 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_2
+ print_signals() : component_name =  sky130_stdcells/fill_2
+process(): skip = 0 --> XFILLER_0_23_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_23_137  decap_8 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_8
+ print_signals() : component_name =  sky130_stdcells/decap_8
+process(): skip = 0 --> XFILLER_0_23_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_23_145  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_24_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_24_27  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> XFILLER_0_24_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_24_53  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_24_81  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_24_81  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_24_109  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_24_109  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_24_137  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_24_137  decap_3 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_3
+ print_signals() : component_name =  sky130_stdcells/decap_3
+process(): skip = 0 --> XFILLER_0_24_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_24_141  decap_6 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/decap_6
+ print_signals() : component_name =  sky130_stdcells/decap_6
+process(): skip = 0 --> XFILLER_0_24_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): X instance:XFILLER_0_24_147  fill_1 VGND=VGND VNB=VGND VPB=VPWR VPWR=VPWR
+process(): inst_sub=sky130_stdcells/fill_1
+ print_signals() : component_name =  sky130_stdcells/fill_1
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+I   clk
+O   clk_comp
+O   clk_comp_shifted
+I   en
+O   samp
+I   vcn
+I   vcp
+B   VPWR
+B   VGND
+O   dac_ctrl[7:0]
+O   dout[7:0]
+
+
+
+ --> print_sch called for: adc_ctrl.sch
+start print symbol: adc_ctrl.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: prefix=sky130_fd_sc_hd__
+----------------------------------------------------------

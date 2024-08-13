@@ -1,0 +1,37 @@
+K {type=primitive
+format="@name @VGND @VPWR @@clk @@clk_comp @@clk_comp_shifted @@dac_ctrl[0] @@dac_ctrl[1] @@dac_ctrl[2] @@dac_ctrl[3] @@dac_ctrl[4] @@dac_ctrl[5] @@dac_ctrl[6] @@dac_ctrl[7] @@dout[0] @@dout[1] @@dout[2] @@dout[3] @@dout[4] @@dout[5] @@dout[6] @@dout[7] @@en @@samp @@vcn @@vcp adc_ctrl"
+template="name=x1 VGND=VGND VPWR=VPWR prefix=sky130_fd_pr__ "
+extra="VGND VPWR prefix"}
+T {@symname} 0 -6 0 0 0.3 0.3 {hcenter=true}
+T {@name} 135 -102 0 0 0.2 0.2 {}
+L 4 -130 -90 130 -90 {}
+L 4 -130 90 130 90 {}
+L 4 -130 -90 -130 90 {}
+L 4 130 -90 130 90 {}
+B 5 147.5 -82.5 152.5 -77.5 {name=clk dir=inout }
+L 7 130 -80 150 -80 {}
+T {clk} 125 -84 0 1 0.2 0.2 {}
+B 5 147.5 -62.5 152.5 -57.5 {name=clk_comp dir=inout }
+L 7 130 -60 150 -60 {}
+T {clk_comp} 125 -64 0 1 0.2 0.2 {}
+B 5 147.5 -42.5 152.5 -37.5 {name=clk_comp_shifted dir=inout }
+L 7 130 -40 150 -40 {}
+T {clk_comp_shifted} 125 -44 0 1 0.2 0.2 {}
+B 5 147.5 -22.5 152.5 -17.5 {name=dac_ctrl[0:7] dir=inout }
+L 7 130 -20 150 -20 {}
+T {dac_ctrl[0:7]} 125 -24 0 1 0.2 0.2 {}
+B 5 147.5 -2.5 152.5 2.5 {name=dout[0:7] dir=inout }
+L 7 130 0 150 0 {}
+T {dout[0:7]} 125 -4 0 1 0.2 0.2 {}
+B 5 147.5 17.5 152.5 22.5 {name=en dir=inout }
+L 7 130 20 150 20 {}
+T {en} 125 16 0 1 0.2 0.2 {}
+B 5 147.5 37.5 152.5 42.5 {name=samp dir=inout }
+L 7 130 40 150 40 {}
+T {samp} 125 36 0 1 0.2 0.2 {}
+B 5 147.5 57.5 152.5 62.5 {name=vcn dir=inout }
+L 7 130 60 150 60 {}
+T {vcn} 125 56 0 1 0.2 0.2 {}
+B 5 147.5 77.5 152.5 82.5 {name=vcp dir=inout }
+L 7 130 80 150 80 {}
+T {vcp} 125 76 0 1 0.2 0.2 {}

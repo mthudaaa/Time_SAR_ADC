@@ -1,0 +1,2289 @@
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__decap_6|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__decap_6--> 
+
+ process_subckt(): curr_subckt=|sky130_ef_sc_hd__decap_12|
+
+
+
+ process_subckt() : sky130_ef_sc_hd__decap_12--> 
+
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__mux2_1|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__mux2_1--> 
+A0 A1 S X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__decap_8|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__decap_8--> 
+
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__fill_1|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__fill_1--> 
+
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__tapvpwrvgnd_1|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__tapvpwrvgnd_1--> 
+
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__nor2_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__nor2_2--> 
+A B Y 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__decap_3|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__decap_3--> 
+
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a2bb2o_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a2bb2o_2--> 
+A1_N A2_N B1 B2 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__fill_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__fill_2--> 
+
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a221o_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a221o_2--> 
+A1 A2 B1 B2 C1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__decap_4|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__decap_4--> 
+
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__nand2_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__nand2_2--> 
+A B Y 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__inv_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__inv_2--> 
+A Y 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a41o_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a41o_2--> 
+A1 A2 A3 A4 B1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__o41a_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__o41a_2--> 
+A1 A2 A3 A4 B1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__dlxtn_1|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__dlxtn_1--> 
+D GATE_N Q 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__or2_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__or2_2--> 
+A B X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__and4_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__and4_2--> 
+A B C D X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a32o_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a32o_2--> 
+A1 A2 A3 B1 B2 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__or3b_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__or3b_2--> 
+A B C_N X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__dfxtp_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__dfxtp_2--> 
+CLK D Q 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__and3_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__and3_2--> 
+A B C X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a211o_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a211o_2--> 
+A1 A2 B1 C1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__o31a_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__o31a_2--> 
+A1 A2 A3 B1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__o211a_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__o211a_2--> 
+A1 A2 B1 C1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a31o_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a31o_2--> 
+A1 A2 A3 B1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__and2_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__and2_2--> 
+A B X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a21oi_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a21oi_2--> 
+A1 A2 B1 Y 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__a311o_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__a311o_2--> 
+A1 A2 A3 B1 C1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__and2b_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__and2b_2--> 
+A_N B X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__o22a_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__o22a_2--> 
+A1 A2 B1 B2 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__nand2b_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__nand2b_2--> 
+A_N B Y 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__o21a_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__o21a_2--> 
+A1 A2 B1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__nor3_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__nor3_2--> 
+A B C Y 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__or4bb_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__or4bb_2--> 
+A B C_N D_N X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__and4bb_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__and4bb_2--> 
+A_N B_N C D X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__o32a_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__o32a_2--> 
+A1 A2 A3 B1 B2 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__and3b_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__and3b_2--> 
+A_N B C X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__o311a_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__o311a_2--> 
+A1 A2 A3 B1 C1 X 
+ process_subckt(): curr_subckt=|sky130_fd_sc_hd__or3_2|
+
+
+
+ process_subckt() : sky130_fd_sc_hd__or3_2--> 
+A B C X 
+ process_subckt(): curr_subckt=|adc_ctrl|
+
+
+
+ process_subckt() : adc_ctrl--> 
+clk clk_comp clk_comp_shifted dac_ctrl[0] dac_ctrl[1] dac_ctrl[2] dac_ctrl[3] dac_ctrl[4] dac_ctrl[5] dac_ctrl[6] dac_ctrl[7] dout[0] dout[1] dout[2] dout[3] dout[4] dout[5] dout[6] dout[7] en samp vcn vcp 
+process(): skip = 0 --> * NGSPICE file created from adc_ctrl.ext - technology: sky130A
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__decap_6 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__decap_6 VGND VNB VPB VPWR
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__decap_6.sch
+start print symbol: sky130_fd_sc_hd__decap_6.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_ef_sc_hd__decap_12 abstract view
+process(): skip = 0 --> .subckt sky130_ef_sc_hd__decap_12 VPWR VGND VPB VNB
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_ef_sc_hd__decap_12.sch
+start print symbol: sky130_ef_sc_hd__decap_12.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VPWR=VPWR
+subckt params: VGND=VGND
+subckt params: VPB=VPB
+subckt params: VNB=VNB
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__mux2_1 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__mux2_1 A0 A1 S VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A0
+B   A1
+B   S
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__mux2_1.sch
+start print symbol: sky130_fd_sc_hd__mux2_1.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__decap_8 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__decap_8 VGND VNB VPB VPWR
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__decap_8.sch
+start print symbol: sky130_fd_sc_hd__decap_8.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__fill_1 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__fill_1 VGND VNB VPB VPWR
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__fill_1.sch
+start print symbol: sky130_fd_sc_hd__fill_1.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__tapvpwrvgnd_1 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__tapvpwrvgnd_1 VGND VPWR
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__tapvpwrvgnd_1.sch
+start print symbol: sky130_fd_sc_hd__tapvpwrvgnd_1.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__nor2_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__nor2_2 A B VGND VNB VPB VPWR Y
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   Y
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__nor2_2.sch
+start print symbol: sky130_fd_sc_hd__nor2_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__decap_3 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__decap_3 VGND VNB VPB VPWR
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__decap_3.sch
+start print symbol: sky130_fd_sc_hd__decap_3.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a2bb2o_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a2bb2o_2 A1_N A2_N B1 B2 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1_N
+B   A2_N
+B   B1
+B   B2
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a2bb2o_2.sch
+start print symbol: sky130_fd_sc_hd__a2bb2o_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__fill_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__fill_2 VGND VNB VPB VPWR
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__fill_2.sch
+start print symbol: sky130_fd_sc_hd__fill_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a221o_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a221o_2 A1 A2 B1 B2 C1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   B1
+B   B2
+B   C1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a221o_2.sch
+start print symbol: sky130_fd_sc_hd__a221o_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__decap_4 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__decap_4 VGND VNB VPB VPWR
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__decap_4.sch
+start print symbol: sky130_fd_sc_hd__decap_4.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__nand2_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__nand2_2 A B VGND VNB VPB VPWR Y
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   Y
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__nand2_2.sch
+start print symbol: sky130_fd_sc_hd__nand2_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__inv_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   Y
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__inv_2.sch
+start print symbol: sky130_fd_sc_hd__inv_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a41o_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a41o_2 A1 A2 A3 A4 B1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   A4
+B   B1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a41o_2.sch
+start print symbol: sky130_fd_sc_hd__a41o_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__o41a_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__o41a_2 A1 A2 A3 A4 B1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   A4
+B   B1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__o41a_2.sch
+start print symbol: sky130_fd_sc_hd__o41a_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__dlxtn_1 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__dlxtn_1 D GATE_N VGND VNB VPB VPWR Q
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   D
+B   GATE_N
+B   Q
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__dlxtn_1.sch
+start print symbol: sky130_fd_sc_hd__dlxtn_1.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__or2_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__or2_2 A B VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__or2_2.sch
+start print symbol: sky130_fd_sc_hd__or2_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__and4_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__and4_2 A B C D VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   C
+B   D
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__and4_2.sch
+start print symbol: sky130_fd_sc_hd__and4_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a32o_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a32o_2 A1 A2 A3 B1 B2 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   B1
+B   B2
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a32o_2.sch
+start print symbol: sky130_fd_sc_hd__a32o_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__or3b_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__or3b_2 A B C_N VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   C_N
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__or3b_2.sch
+start print symbol: sky130_fd_sc_hd__or3b_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__dfxtp_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__dfxtp_2 CLK D VGND VNB VPB VPWR Q
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   CLK
+B   D
+B   Q
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__dfxtp_2.sch
+start print symbol: sky130_fd_sc_hd__dfxtp_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__and3_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__and3_2 A B C VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   C
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__and3_2.sch
+start print symbol: sky130_fd_sc_hd__and3_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a211o_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a211o_2 A1 A2 B1 C1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   B1
+B   C1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a211o_2.sch
+start print symbol: sky130_fd_sc_hd__a211o_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__o31a_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__o31a_2 A1 A2 A3 B1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   B1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__o31a_2.sch
+start print symbol: sky130_fd_sc_hd__o31a_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__o211a_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__o211a_2 A1 A2 B1 C1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   B1
+B   C1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__o211a_2.sch
+start print symbol: sky130_fd_sc_hd__o211a_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a31o_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a31o_2 A1 A2 A3 B1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   B1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a31o_2.sch
+start print symbol: sky130_fd_sc_hd__a31o_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__and2_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__and2_2 A B VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__and2_2.sch
+start print symbol: sky130_fd_sc_hd__and2_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a21oi_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a21oi_2 A1 A2 B1 VGND VNB VPB VPWR Y
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   B1
+B   Y
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a21oi_2.sch
+start print symbol: sky130_fd_sc_hd__a21oi_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__a311o_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__a311o_2 A1 A2 A3 B1 C1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   B1
+B   C1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__a311o_2.sch
+start print symbol: sky130_fd_sc_hd__a311o_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__and2b_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__and2b_2 A_N B VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A_N
+B   B
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__and2b_2.sch
+start print symbol: sky130_fd_sc_hd__and2b_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__o22a_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__o22a_2 A1 A2 B1 B2 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   B1
+B   B2
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__o22a_2.sch
+start print symbol: sky130_fd_sc_hd__o22a_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__nand2b_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__nand2b_2 A_N B VGND VNB VPB VPWR Y
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A_N
+B   B
+B   Y
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__nand2b_2.sch
+start print symbol: sky130_fd_sc_hd__nand2b_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__o21a_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__o21a_2 A1 A2 B1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   B1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__o21a_2.sch
+start print symbol: sky130_fd_sc_hd__o21a_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__nor3_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__nor3_2 A B C VGND VNB VPB VPWR Y
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   C
+B   Y
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__nor3_2.sch
+start print symbol: sky130_fd_sc_hd__nor3_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__or4bb_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__or4bb_2 A B C_N D_N VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   C_N
+B   D_N
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__or4bb_2.sch
+start print symbol: sky130_fd_sc_hd__or4bb_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__and4bb_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__and4bb_2 A_N B_N C D VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A_N
+B   B_N
+B   C
+B   D
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__and4bb_2.sch
+start print symbol: sky130_fd_sc_hd__and4bb_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__o32a_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__o32a_2 A1 A2 A3 B1 B2 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   B1
+B   B2
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__o32a_2.sch
+start print symbol: sky130_fd_sc_hd__o32a_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__and3b_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__and3b_2 A_N B C VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A_N
+B   B
+B   C
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__and3b_2.sch
+start print symbol: sky130_fd_sc_hd__and3b_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__o311a_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__o311a_2 A1 A2 A3 B1 C1 VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A1
+B   A2
+B   A3
+B   B1
+B   C1
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__o311a_2.sch
+start print symbol: sky130_fd_sc_hd__o311a_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> * Black-box entry subcircuit for sky130_fd_sc_hd__or3_2 abstract view
+process(): skip = 0 --> .subckt sky130_fd_sc_hd__or3_2 A B C VGND VNB VPB VPWR X
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   A
+B   B
+B   C
+B   X
+
+
+
+ --> print_sch called for: sky130_fd_sc_hd__or3_2.sch
+start print symbol: sky130_fd_sc_hd__or3_2.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VNB=VNB
+subckt params: VPB=VPB
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 
+process(): skip = 0 --> .subckt adc_ctrl VGND VPWR clk clk_comp clk_comp_shifted dac_ctrl[0] dac_ctrl[1] dac_ctrl[2]  dac_ctrl[3] dac_ctrl[4] dac_ctrl[5] dac_ctrl[6] dac_ctrl[7] dout[0] dout[1] dout[2]  dout[3] dout[4] dout[5] dout[6] dout[7] en samp vcn vcp
+process(): skip = 0 --> XFILLER_0_13_40 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_73 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_131_ _051_ _024_ sar_logic_0.count\[0\] VGND VGND VPWR VPWR _009_ sky130_fd_sc_hd__mux2_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_27 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_85 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_94 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_72 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_18_97 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_114_ _041_ _037_ VGND VGND VPWR VPWR _027_ sky130_fd_sc_hd__nor2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_109 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_131 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_2_57 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_71 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_109 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_21_Right_21 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_130_ dac_ctrl[7] _035_ _021_ dout[7] VGND VGND VPWR VPWR _019_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_12_Right_12 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_18_98 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_113_ sar_logic_0.eoc smp_clk_div_0.start VGND VGND VPWR VPWR _037_ sky130_fd_sc_hd__nor2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_74 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_12_Left_37 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_85 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_6_Right_6 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_104 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_2_58 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_15_Left_40 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_64 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_0_Left_25 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_85 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_18_99 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_112_ _042_ _020_ _036_ dac_ctrl[7] sar_logic_0.eoc VGND VGND VPWR VPWR _008_ sky130_fd_sc_hd__a221o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_86 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_53 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_20 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_116 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_2_59 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_130 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_98 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_63 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_96 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_106 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_109 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_111_ clk_comp _034_ VGND VGND VPWR VPWR _036_ sky130_fd_sc_hd__nand2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_98 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_65 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_128 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_23_110 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_20_102 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_75 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_76 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_110_ _035_ VGND VGND VPWR VPWR _020_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_21 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_19_Right_19 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_23_111 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_19_Left_44 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_3_60 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_20_103 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_4_Left_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_50 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_130 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_78 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_7_Left_32 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_100 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_3_61 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_20_104 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_20_Left_45 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_23 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_51 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_58 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_099_ sar_logic_0.count\[1\] sar_logic_0.count\[0\] _048_ _053_ _064_ VGND VGND VPWR  VPWR _004_ sky130_fd_sc_hd__a41o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_1_Right_1 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_16_92 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_57 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_89 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_35 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_52 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_098_ _044_ _045_ sar_logic_0.count\[2\] _054_ _062_ VGND VGND VPWR VPWR _064_ sky130_fd_sc_hd__o41a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_57 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_24_Right_24 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_15_Right_15 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_16_93 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_105 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_69 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_53 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_69 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_097_ sar_logic_0.count\[1\] sar_logic_0.count\[0\] VGND VGND VPWR VPWR _063_ sky130_fd_sc_hd__nand2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_149_ _007_ _022_ VGND VGND VPWR VPWR dac_ctrl[6] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_24 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_16_94 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_24_Left_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_0_54 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_90 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_096_ sar_logic_0.eoc dac_ctrl[3] VGND VGND VPWR VPWR _062_ sky130_fd_sc_hd__or2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_148_ _006_ _022_ VGND VGND VPWR VPWR dac_ctrl[5] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_079_ sar_logic_0.count\[1\] sar_logic_0.count\[0\] VGND VGND VPWR VPWR _049_ sky130_fd_sc_hd__nor2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_101 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_11_Left_36 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_36 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_5_Right_5 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_28 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_93 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_13_85 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_9_75 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_49 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_095_ sar_logic_0.count\[1\] _045_ _048_ _053_ _060_ VGND VGND VPWR VPWR _003_ sky130_fd_sc_hd__a41o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_147_ _005_ _022_ VGND VGND VPWR VPWR dac_ctrl[4] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_119 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_078_ en clk_comp VGND VGND VPWR VPWR _030_ sky130_fd_sc_hd__nand2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_20_Right_20 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_11_Right_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_21_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_13_86 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_9_76 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_094_ _042_ sar_logic_0.count\[1\] _045_ _051_ VGND VGND VPWR VPWR _061_ sky130_fd_sc_hd__and4_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_51 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_146_ _004_ _022_ VGND VGND VPWR VPWR dac_ctrl[3] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_077_ clk VGND VGND VPWR VPWR _029_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_106 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_129_ dac_ctrl[6] _035_ _021_ dout[6] VGND VGND VPWR VPWR _018_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_70 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_093_ _044_ sar_logic_0.count\[0\] sar_logic_0.count\[2\] _054_ _059_ VGND VGND VPWR  VPWR _060_ sky130_fd_sc_hd__o41a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_162_ _011_ _024_ VGND VGND VPWR VPWR sar_logic_0.count\[2\] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_10_77 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_121 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_076_ sar_logic_0.count\[2\] VGND VGND VPWR VPWR _048_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_6_67 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_145_ _003_ _022_ VGND VGND VPWR VPWR dac_ctrl[2] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_128_ dac_ctrl[5] _035_ _021_ dout[5] VGND VGND VPWR VPWR _017_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_118 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_9_Right_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_18_Left_43 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_74 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_3_Left_28 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_50 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_161_ _010_ _024_ VGND VGND VPWR VPWR sar_logic_0.count\[1\] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_092_ sar_logic_0.eoc dac_ctrl[2] VGND VGND VPWR VPWR _059_ sky130_fd_sc_hd__or2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_10_78 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_130 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_075_ smp_clk_div_0.start VGND VGND VPWR VPWR _047_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_144_ _002_ _022_ VGND VGND VPWR VPWR dac_ctrl[1] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_6_68 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_85 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_100 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_6_Left_31 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_127_ dac_ctrl[4] _035_ _021_ dout[4] VGND VGND VPWR VPWR _016_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_106 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_109 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_091_ _048_ _053_ _057_ _058_ _056_ VGND VGND VPWR VPWR _002_ sky130_fd_sc_hd__a32o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_160_ _009_ _024_ VGND VGND VPWR VPWR sar_logic_0.count\[0\] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_18_Right_18 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_10_79 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_143_ _001_ _022_ VGND VGND VPWR VPWR dac_ctrl[0] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_074_ vcn VGND VGND VPWR VPWR _046_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_6_69 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_126_ dac_ctrl[3] _035_ _021_ dout[3] VGND VGND VPWR VPWR _015_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_0_Right_0 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_109_ _051_ _034_ VGND VGND VPWR VPWR _035_ sky130_fd_sc_hd__nand2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_118 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_090_ sar_logic_0.count\[2\] _054_ _057_ VGND VGND VPWR VPWR _058_ sky130_fd_sc_hd__or3b_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_142_ _000_ _032_ VGND VGND VPWR VPWR cmp_processor_0.comp sky130_fd_sc_hd__dfxtp_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_65 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_073_ sar_logic_0.count\[0\] VGND VGND VPWR VPWR _045_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_125_ dac_ctrl[2] _035_ _021_ dout[2] VGND VGND VPWR VPWR _014_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_87 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_21 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_108_ sar_logic_0.count\[1\] sar_logic_0.count\[0\] sar_logic_0.count\[2\] VGND VGND  VPWR VPWR _034_ sky130_fd_sc_hd__and3_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_22 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_89 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_141_ _026_ _028_ VGND VGND VPWR VPWR smp_clk_div_0.start sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_072_ sar_logic_0.count\[1\] VGND VGND VPWR VPWR _044_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_65 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_21 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_124_ dac_ctrl[1] _035_ _021_ dout[1] VGND VGND VPWR VPWR _013_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_11_80 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_33 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_7_70 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_107_ sar_logic_0.count\[2\] _061_ _033_ sar_logic_0.eoc VGND VGND VPWR VPWR _007_  sky130_fd_sc_hd__a211o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_23_Left_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_57 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_23_Right_23 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_140_ _025_ _027_ VGND VGND VPWR VPWR samp sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_071_ sar_logic_0.eoc VGND VGND VPWR VPWR _043_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_14_Right_14 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_7_109 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_11_81 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_45 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_123_ dac_ctrl[0] _035_ _021_ dout[0] VGND VGND VPWR VPWR _012_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_7_71 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_10_Left_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_106_ _044_ sar_logic_0.count\[0\] _065_ dac_ctrl[6] VGND VGND VPWR VPWR _033_ sky130_fd_sc_hd__o31a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_4_Right_4 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_66 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_69 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_070_ cmp_processor_0.comp VGND VGND VPWR VPWR _042_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_24 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_121 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_57 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_122_ _052_ _034_ en _043_ VGND VGND VPWR VPWR _024_ sky130_fd_sc_hd__o211a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_102 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_105_ sar_logic_0.count\[2\] _053_ _057_ _068_ VGND VGND VPWR VPWR _006_ sky130_fd_sc_hd__a31o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_4_62 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_36 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_78 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_100 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_106 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_121_ _043_ _021_ VGND VGND VPWR VPWR _023_ sky130_fd_sc_hd__and2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_69 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_104_ sar_logic_0.count\[1\] _045_ _048_ _054_ _067_ VGND VGND VPWR VPWR _068_ sky130_fd_sc_hd__o41a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_23 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_4_63 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_35 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_27 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_10_Right_10 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_120_ _051_ _034_ _041_ VGND VGND VPWR VPWR _021_ sky130_fd_sc_hd__a21oi_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_103_ sar_logic_0.eoc dac_ctrl[5] VGND VGND VPWR VPWR _067_ sky130_fd_sc_hd__or2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_14_Left_39 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_4_64 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_8_Right_8 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_17_Left_42 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_39 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_138 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_2_Left_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_19_100 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_5_Left_30 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_102_ sar_logic_0.count\[2\] _049_ _053_ _066_ sar_logic_0.eoc VGND VGND VPWR VPWR  _005_ sky130_fd_sc_hd__a311o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_58 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_17_95 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_60 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_1_55 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_109 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_111 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_19_101 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_22_107 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_109 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_101_ sar_logic_0.count\[1\] sar_logic_0.count\[0\] _065_ dac_ctrl[4] VGND VGND VPWR  VPWR _066_ sky130_fd_sc_hd__o31a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_17_96 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_1_56 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_14_118 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_121 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_22_108 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_100_ clk_comp sar_logic_0.count\[2\] VGND VGND VPWR VPWR _065_ sky130_fd_sc_hd__nand2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_94 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_17_Right_17 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_14_87 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_85 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_96 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_62 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_22_109 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_159_ _020_ _023_ VGND VGND VPWR VPWR sar_logic_0.eoc sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_9_Left_34 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_17_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_93 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_14_88 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_83 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_22_Left_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_53 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_74 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_158_ _019_ _021_ VGND VGND VPWR VPWR dout[7] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_089_ sar_logic_0.count\[1\] sar_logic_0.count\[0\] VGND VGND VPWR VPWR _057_ sky130_fd_sc_hd__and2b_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_3_Right_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_85 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_14_89 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_75 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_121 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_65 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_86 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_121 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_53 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_088_ dac_ctrl[1] sar_logic_0.eoc VGND VGND VPWR VPWR _056_ sky130_fd_sc_hd__or2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_157_ _018_ _021_ VGND VGND VPWR VPWR dout[6] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_22_Right_22 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_13_Right_13 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_87 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_41 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_85 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_105 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_98 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_156_ _017_ _021_ VGND VGND VPWR VPWR dout[5] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_087_ _048_ _049_ _053_ _055_ VGND VGND VPWR VPWR _001_ sky130_fd_sc_hd__a31o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_65 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_139_ clk _031_ VGND VGND VPWR VPWR clk_comp_shifted sky130_fd_sc_hd__dfxtp_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_99 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_53 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_97 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_15_90 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_109 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_55 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_11 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_155_ _016_ _021_ VGND VGND VPWR VPWR dout[4] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_086_ sar_logic_0.eoc dac_ctrl[0] _050_ _054_ VGND VGND VPWR VPWR _055_ sky130_fd_sc_hd__o22a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_069_ en VGND VGND VPWR VPWR _041_ sky130_fd_sc_hd__inv_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_67 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_138_ _029_ _030_ VGND VGND VPWR VPWR clk_comp sky130_fd_sc_hd__dfxtp_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_13_Left_38 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_53 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_121 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_7_Right_7 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_102 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_65 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_15_91 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_16_Left_41 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_1_Left_26 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_110 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_23 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_154_ _015_ _021_ VGND VGND VPWR VPWR dout[3] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_085_ sar_logic_0.eoc clk_comp VGND VGND VPWR VPWR _054_ sky130_fd_sc_hd__nand2b_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_79 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_24 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> X_137_ vcp _046_ en VGND VGND VPWR VPWR _032_ sky130_fd_sc_hd__o21a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_87 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_133 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_77 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_8_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_112 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_35 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_12_82 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_153_ _014_ _021_ VGND VGND VPWR VPWR dout[2] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_8_72 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_084_ cmp_processor_0.comp _052_ VGND VGND VPWR VPWR _053_ sky130_fd_sc_hd__nor2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_136_ clk_comp_shifted en VGND VGND VPWR VPWR _031_ sky130_fd_sc_hd__and2b_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_57 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_66 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> X_119_ sar_logic_0.eoc clk_comp _053_ VGND VGND VPWR VPWR _022_ sky130_fd_sc_hd__nor3_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_113 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_23_47 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_21_105 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_3_57 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_12_83 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_152_ _013_ _021_ VGND VGND VPWR VPWR dout[1] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_083_ sar_logic_0.eoc clk_comp smp_clk_div_0.start clk_comp_shifted VGND VGND VPWR  VPWR _052_ sky130_fd_sc_hd__or4bb_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_8_73 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_69 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_135_ _048_ _063_ _040_ VGND VGND VPWR VPWR _011_ sky130_fd_sc_hd__a21oi_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_70 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_118_ _041_ _038_ VGND VGND VPWR VPWR _026_ sky130_fd_sc_hd__nor2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_48 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_6_24 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_102 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_114 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_21_106 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_151_ _012_ _021_ VGND VGND VPWR VPWR dout[0] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_12_84 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_082_ sar_logic_0.eoc clk_comp smp_clk_div_0.start clk_comp_shifted VGND VGND VPWR  VPWR _051_ sky130_fd_sc_hd__and4bb_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_8_74 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_134_ _041_ sar_logic_0.eoc _048_ _052_ _034_ VGND VGND VPWR VPWR _040_ sky130_fd_sc_hd__o32a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_82 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_117_ samp _037_ en VGND VGND VPWR VPWR _025_ sky130_fd_sc_hd__and3b_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_8_Left_33 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_16_147 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_22_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_10_109 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_115 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_125 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_21_Left_46 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_2_139 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_150_ _008_ _022_ VGND VGND VPWR VPWR dac_ctrl[7] sky130_fd_sc_hd__dlxtn_1
+ print_signals() : component_name =  
+process(): skip = 0 --> X_081_ clk_comp clk_comp_shifted VGND VGND VPWR VPWR _000_ sky130_fd_sc_hd__and2b_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_18_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_16_Right_16 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_24_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_133_ _049_ _039_ _024_ sar_logic_0.count\[1\] VGND VGND VPWR VPWR _010_ sky130_fd_sc_hd__a2bb2o_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_27 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_145 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_17 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> X_116_ _043_ _047_ samp _038_ en VGND VGND VPWR VPWR _028_ sky130_fd_sc_hd__o311a_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_5_65 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_9 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XPHY_EDGE_ROW_2_Right_2 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_81 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_5_137 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_24_116 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_11_3 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_8
+ print_signals() : component_name =  
+process(): skip = 0 --> X_080_ sar_logic_0.count\[1\] sar_logic_0.count\[0\] sar_logic_0.count\[2\] VGND VGND  VPWR VPWR _050_ sky130_fd_sc_hd__or3_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_0_3 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_20_29 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_4_81 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_3
+ print_signals() : component_name =  
+process(): skip = 0 --> X_132_ _051_ _063_ VGND VGND VPWR VPWR _039_ sky130_fd_sc_hd__nand2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_60 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_9_15 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_19_113 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_15_29 VGND VGND VPWR VPWR sky130_fd_sc_hd__fill_2
+ print_signals() : component_name =  
+process(): skip = 0 --> X_115_ samp _037_ VGND VGND VPWR VPWR _038_ sky130_fd_sc_hd__nand2_2
+ print_signals() : component_name =  
+process(): skip = 0 --> XTAP_TAPCELL_ROW_5_66 VGND VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_1_93 VPWR VGND VPWR VGND sky130_ef_sc_hd__decap_12
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_13_108 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_4
+ print_signals() : component_name =  
+process(): skip = 0 --> XFILLER_0_12_141 VGND VGND VPWR VPWR sky130_fd_sc_hd__decap_6
+ print_signals() : component_name =  
+process(): skip = 0 --> .ends
+----------------------------------------------------------
+B   clk
+B   clk_comp
+B   clk_comp_shifted
+B   dac_ctrl[0:7]
+B   dout[0:7]
+B   en
+B   samp
+B   vcn
+B   vcp
+
+
+
+ --> print_sch called for: adc_ctrl.sch
+start print symbol: adc_ctrl.sym
+v {xschem version=3.0.0 file_version=1.2}
+subckt params: VGND=VGND
+subckt params: VPWR=VPWR
+subckt params: prefix=sky130_fd_pr__
+----------------------------------------------------------
+process(): skip = 0 --> 

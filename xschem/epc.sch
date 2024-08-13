@@ -285,9 +285,3 @@ C {devices/lab_wire.sym} 5580 -360 0 1 {name=p111 sig_type=std_logic lab=VN}
 C {devices/lab_wire.sym} 440 -400 0 1 {name=p113 sig_type=std_logic lab=OUTN}
 C {devices/opin.sym} 530 -170 0 0 {name=p117 lab=OUTN}
 C {devices/lab_wire.sym} 530 -170 0 0 {name=p118 sig_type=std_logic lab=OUTN}
-C {devices/opin.sym} 530 -140 0 0 {name=p112 lab=READY}
-C {devices/lab_wire.sym} 530 -140 0 0 {name=p114 sig_type=std_logic lab=READY}
-C {sky130_stdcells/or2_1.sym} 850 -160 0 0 {name=x35 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {devices/lab_wire.sym} 790 -180 0 0 {name=p115 sig_type=std_logic lab=OUTP}
-C {devices/lab_wire.sym} 790 -140 0 0 {name=p116 sig_type=std_logic lab=OUTN}
-C {devices/lab_wire.sym} 910 -160 0 1 {name=p119 sig_type=std_logic lab=READY}
